@@ -22,3 +22,21 @@ table{
   border-color: black ;
   border: 5px;
 }
+
+#game {
+  display: grid;
+  grid-template-rows: repeat(3, 100px);
+  grid-gap: 5px;
+}
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+}
+.cell {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+}
