@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jane Doe - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">JD</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Jane Doe</h1>
+                <h2>Computer Science Student</h2>
+                <p>Passionate about developing innovative solutions</p>
+                <a href="assets/resume.pdf" class="btn" download>Download Resume</a>
+            </div>
+            <img src="images/profile.jpg" alt="Jane Doe" class="profile-img">
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <p>A motivated computer science student with expertise in full-stack development and machine learning. Currently pursuing Master's degree at Tech University with 3.8 GPA.</p>
+                <div class="about-details">
+                    <div class="detail-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>jane.doe@email.com</p>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>New York, USA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>Web Development</h3>
+                    <p>HTML5, CSS3, JavaScript, React</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Databases</h3>
+                    <p>MySQL, MongoDB, PostgreSQL</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-robot"></i>
+                    <h3>AI/ML</h3>
+                    <p>Python, TensorFlow, PyTorch</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <img src="images/project1.jpg" alt="Project 1">
+                    <div class="project-info">
+                        <h3>Smart Attendance System</h3>
+                        <p>AI-powered attendance tracking using facial recognition</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <img src="images/project2.jpg" alt="Project 2">
+                    <div class="project-info">
+                        <h3>E-commerce Platform</h3>
+                        <p>Full-stack shopping platform with React and Node.js</p>
+                        <a href="#" class="btn">View Project</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section bg-light">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Master of Science in Computer Science</h3>
+                    <p class="date">2022 - 2024</p>
+                    <p>Tech University - GPA: 3.8/4.0</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Bachelor of Science in Computer Engineering</h3>
+                    <p class="date">2018 - 2022</p>
+                    <p>State University - GPA: 3.9/4.0</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-wrapper">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea rows="5" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-linkedin"></i>
+                        <p>linkedin.com/in/janedoe</p>
+                    </div>
+                    <div class="info-item">
+                        <i class="fab fa-github"></i>
+                        <p>github.com/janedoe</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 Jane Doe. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-medium"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
